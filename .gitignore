@@ -1,0 +1,50 @@
+# 数据文件不上传（L2 数据需单独授权，体积也大）
+data/
+*.zip
+*.7z
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.log
+temp_*.txt
+tools/_*.py
+*.tmp
+
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 打包文件
+dist/
+build/
+*.egg-info/
+
+# 个人笔记（不上传）
+我的*.md
+*个人*.md
